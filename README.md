@@ -8,11 +8,10 @@ Hello I am Rashmi Maurya , a AWS AI & ML Scholar'24. This repository contains my
 #How to run scripts in command line
 
 #For running train.py script following command can be used in terminal:
-!python train.py flowers --save_dir checkpoints --arch vgg16 --learning_rate 0.001 --hidden_units 512 --epochs 5 --gpu
-
+```!python train.py flowers --save_dir checkpoints --arch vgg16 --learning_rate 0.001 --hidden_units 512 --epochs 5 --gpu  ```
 
 #For running predict.py script following command can be used in terminal:
-!python predict.py flowers/test/1/image_06743.jpg checkpoints/checkpoint.pth --top_k 3 --category_names cat_to_name.json --gpu
+```!python predict.py flowers/test/1/image_06743.jpg checkpoints/checkpoint.pth --top_k 3 --category_names cat_to_name.json --gpu  ```
 
 
 * You can change the parameters used accordingly.
